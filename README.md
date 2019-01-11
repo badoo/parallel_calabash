@@ -36,7 +36,7 @@ Example: parallel_calabash -a my.apk -o 'cucumber_opts_like_tags_profile_etc_her
     -v, --version                    Show version
     -a, --apk apk_path               apk file path
     -o, --cucumber_opts '[OPTIONS]'  execute with those cucumber options
-    -f, --filter                     Filter devices to run tests against using partial device id or model name matching. Multiple filters seperated by ','
+    -f, --filter                     Filter devices to run tests against using partial device id or model name matching. Multiple filters separated by ','
     --serialize-stdout               Serialize stdout output, nothing will be written until everything is done
     --group-by-scenarios             Distribute equally as per scenarios. This uses cucumber dry run
     --concurrent                     Run tests concurrently. Each test will run once on each device.
